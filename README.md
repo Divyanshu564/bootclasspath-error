@@ -69,11 +69,17 @@ Then we run the following commands in order-
 And we get the successful compilation result having logs as:-
 
 >[debug] The Scala compiler is invoked with:
+
 >[debug] -bootclasspath
+
 >[debug] C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+
 >[debug] -classpath
+
 >[debug] D:\bootclasspath-error\target\scala-2.13\classes
+
 >[debug] Scala compilation took 3.2177838 s
+
 >[debug] Done compiling.
 
 It's a strange thing, that now on fresh machine it gets compiled successfully without any error but when trying to upgrade the environment we get an error for -bootclasspath.
