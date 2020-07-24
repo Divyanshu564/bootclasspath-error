@@ -1,5 +1,6 @@
 # *-bootclasspath* sbt error
 This file contains information about **sbt error** **`-bootclasspath`**.
+
 We are facing this issue when we try to upgrade the environment in the project. 
 
 > Note: - Since due to confidentiality we cannot disclose the code base
