@@ -56,7 +56,7 @@ but if we run it with an upgraded environment, we get the error as: -
     [error] bad option: '-bootclasspath'
     [error] (Compile / compileIncremental) Compilation failed
 
-**Sample-Code-Result**
+## Sample-Code-Result
 
 To debug this error, we first create a fresh virtual machine with `windows 10` operating system and installed the configuration at which we are facing the issue i.e. `Java 14`, `Scala 2.13`, `SBT 1.3.13`.
 
