@@ -48,6 +48,7 @@ If we revert to the original environment and then try to run these commands in o
 We get the log as: -
 
 > [debug] -bootclasspath
+
 > [debug] /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/resources.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/rt.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jsse.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jce.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/charsets.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jfr.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/classes:/home/user/.cache/coursier/v1/https/path-to-scala/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
 
 but if we run it with an upgraded environment, we get the error as: -
